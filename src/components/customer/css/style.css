@@ -33,42 +33,25 @@ body{
     .search-btn{
         height: 50px;
         width: 100px;
-        background: #b1e8ed;
+        background: #ffd45c;
         border: none;
         color: #000;
         border-radius: 25px;
     
     }
     
-    .search-btn:hover{
-        background-color: #ffd45c;
-    }
-    
     #basket{
         flex-grow: 1;
         background-color:#313131;
-        line-height: 90px;
-        display: flex;
-        flex-direction: row-reverse;
-        margin-right: 225px;
+        color: white;
+        text-align: center;
+        line-height: 75px;
     }
-    
-    i.fa-shopping-cart{
-        font-size: 40px;
-        color: #b1e8ed;
-        transition: 0.1s;
-    }
-    
-    i.fa-shopping-cart:hover{
-        color: #ffd45c;
-    }
-    
     
     #alphamiddle{
         background-color: #ECEEF0;
         width: 100%;
         height: 805px;
-        
     }
     
     #headline{
@@ -88,17 +71,13 @@ body{
         margin: 0 auto;
     }
     
-    .search{
-        box-sizing: border-box;
-    }
-    
     .category_img{
-        background-color: #ECEEF0;
+        background-color: #ffffff;
         height: 260px;
         width: 260px;
         display: flex;
         flex-direction: row;
-        }
+    }
     
     .category_text{
         font-family: "Helvetica", Times, serif;
@@ -109,58 +88,23 @@ body{
         display: flex;
     }
     
-    .link_button, a:visited {
-        font-family: "Lato", Courier, monospace;
-        background-color: #b1e8ed;
+    a:link, a:visited {
+        background-color: #9ABEDB;
         color: #000000;
-        margin: 10px 0 0 35px;
-        padding: 10px 50px;
+        margin: 0px 0 0 0;
+        padding: 12px 84.25px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        border-radius: 25px;
     }
     
-    .wtf, a:visited {
-        font-family: "Lato", Courier, monospace;
-        background-color: #b1e8ed;
-        color: #000000;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        border-radius: 25px;
-        margin: 0;
-        padding: 0 25px 0 25px;
+    a:hover, a:active{
+        background-color: #728CB3;
     }
     
-    .wtf:hover, a:active{
-        background-color: #ffd45c;
-    }
-    
-    .link_button:hover, a:active{
-        background-color: #ffd45c;
-    }
     footer{
         background-color: #554B4B;
         width: 100%;
         height: 200px;
-        margin: -20px 0 -100px 0;
-        text-align: center;
-        font-family: "Lato", Courier, serif;
-        font-size: 18px;
-        color: #F8F8FF
-    }
-    
-    .search{
-        margin-left: 200px;
-    }
-    
-    footer p{
-        line-height: 50px;
-    }
-    
-    #wtf{
-        margin: 0;
-        padding: 0 25px 0 25px;
     }
     
